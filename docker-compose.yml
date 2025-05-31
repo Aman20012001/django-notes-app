@@ -14,7 +14,7 @@ services:
       - notes-app-nw
 
   django_app:
-    image: "hyperactive01/notesapp:latest"
+    image: "hyperactive01/newapp:new"
     container_name: "django_cont"
     ports:
       - "8000:8000"
